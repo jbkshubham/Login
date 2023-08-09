@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden
+}
+
+/* Navbar */
+.navbar {
+    background-color: #2676d1;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar .logo {
+    font-size: 20px;
+}
+
+.navbar .title {
+    font-size: 24px;
+}
+
+.navbar .right-icons img {
+    margin-left: 10px;
+}
+
+/* Sidebar */
+
+.sidebar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    width: 38px;
+    /* Adjust the width as needed */
+    height: 75%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sidebar a {
+    display: block;
+    margin-bottom: 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.sidebar img {
+    width: 30px;
+    height: 30px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.sidebar img:hover {
+    opacity: 1;
+}
+
+.main {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+/* Content */
+.content {
+    padding: 20px;
+    /* background-color: aqua; */
+    height: 509px;
+    width: 100%;
+}
+
+.artical {
+    background-color: aliceblue;
+    height: 518px;
+    width: 300px;
+    margin-top: 20px;
+    /* display: none; */
+}
+
+.BelowNav {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.Mainbelowicon {
+    /* background-color: rgb(101, 255, 255); */
+   /* background-image: linear-gradient(to right, red, rgb(78, 48, 252), rgb(27, 229, 236)); */
+   background-color: white;
+    align-items: center;
+
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
+}
+
+.Mainabove {
+    background-color: white;
+    text-align: center;
+    height: 380px;
+    padding: 20px;
+}
+
+.bttt {
+    background-color: rgb(86, 102, 102);
+    color: rgb(254, 254, 255);
+    position: absolute;
+    top: 530px;
+    right: 400px;
+    margin-right: -27%;
+}
+
+.btt {
+    position: relative;
+    left: 50%;
+    background-color: aquamarine;
+    color: #f2f2f2;
+    margin-top: 440px;
+    
+}
+
+/* Icon */
+.icon {
+    height: 24px;
+    /* Adjust the height value as needed */
+}
+
+.icon.filter {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 20px;
+}
+
+.add-icon {
+    position: relative;
+    left: 98%;
+}
